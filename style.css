@@ -28,3 +28,11 @@ body {
   border-bottom: 100px solid #e9ecef;
   border-left: 160px solid #dee2e6;
 }
+
+.heart {
+  width: 32px;
+  height: 32px;
+  background-color: #e64980;
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: heartbeat 1.4s linear infinite;
+}
