@@ -36,3 +36,29 @@ body {
   transform: translate(-50%, -50%) rotate(45deg);
   animation: heartbeat 1.4s linear infinite;
 }
+
+.heart::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e64980;
+  /* move to the top a distance equal to half of its height */
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.heart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e64980;
+  /* move to the left a distance equal to half of its height */
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
