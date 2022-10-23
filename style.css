@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop {
+  background-color: rgba(86, 43, 216, 0.8);
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #f8f9fa;
+  border-right: 160px solid #f1f3f5;
+  border-bottom: 100px solid #e9ecef;
+  border-left: 160px solid #dee2e6;
+}
